@@ -20,12 +20,16 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.11",
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
-    "@tensorflow/tfjs-node": "^4.21.0",
-    "canvas": "^2.11.2",
+    "@tensorflow/tfjs-node": "4.20.0",
+    "@types/multer": "^1.4.12",
+    "canvas": "2.11.2",
     "face-api.js": "^0.22.2",
+    "path": "^0.12.7",
+    "polyfills": "^2.1.1",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
   },
